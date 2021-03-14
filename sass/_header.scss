@@ -1,0 +1,34 @@
+/* ENCABEZADO */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem 7rem;
+}
+
+/* NAV */
+nav {
+    text-align:right;
+    background-color: $colorBackground;
+    
+    a {
+    font-size: 1em;
+    margin-right: 1em;
+    margin-left: 0.2em;
+    padding-left: 0.33em;
+    font-weight: bold;
+    text-decoration: none;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-bottom-left-radius:8px 8px;
+    line-height: 0.5 !important;
+    
+        :hover {
+            border-bottom-left-radius:8px 8px;
+            border-left: 3px solid $colorMain;
+            border-bottom: 3px solid $colorMain;
+            transition-duration: 0.25s;
+        }
+    }
+}

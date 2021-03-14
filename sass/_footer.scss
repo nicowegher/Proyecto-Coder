@@ -1,0 +1,9 @@
+/*FOOTER*/
+footer{
+    padding: 2rem 7rem;
+    background: $colorText;
+    H6, p {
+        margin-bottom: 10px;
+        color: $colorBackground !important;
+    }
+}

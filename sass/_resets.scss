@@ -1,0 +1,14 @@
+/*RESETEO DE VALORES POR DEFAULT*/
+*{ 
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    color: $colorText;
+    border:none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    :focus{
+        outline-width: 0px;
+    }
+}
