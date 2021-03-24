@@ -24,7 +24,7 @@ nav {
     border-bottom-left-radius:8px 8px;
     line-height: 0.5 !important;
     
-        :hover {
+        &:hover {
             border-bottom-left-radius:8px 8px;
             border-left: 3px solid $colorMain;
             border-bottom: 3px solid $colorMain;

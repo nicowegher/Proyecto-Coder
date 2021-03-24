@@ -1,0 +1,41 @@
+/*ESTILO DE ELEMENTOS*/
+td {
+    text-align: center;
+}
+
+img {
+    transition: 0.5s ease;
+    &:hover{
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
+        transition: 0.5s ease;
+     }
+}
+
+input{
+    padding: 10px;
+    border: 1px solid grey;
+    box-shadow: 1px 2px 10px grey;
+}
+
+p{
+    margin: 20px 0px; 
+}
+
+h2 {
+    text-decoration: overline;
+    text-decoration-color: $colorMain;
+}
+
+section{
+    padding: 2rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*ESTILO DE PSEUDOELEMENTOS*/
+
+:focus{
+    border: none !important;
+}
