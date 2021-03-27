@@ -1,8 +1,4 @@
 /*ESTILO DE ELEMENTOS*/
-td {
-    text-align: center;
-}
-
 img {
     transition: 0.5s ease;
     &:hover{
@@ -21,6 +17,7 @@ input{
 
 p{
     margin: 20px 0px; 
+    text-align: justify;
 }
 
 h2 {
@@ -30,8 +27,6 @@ h2 {
 
 section{
     padding: 2rem 7rem;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /*ESTILO DE PSEUDOELEMENTOS*/

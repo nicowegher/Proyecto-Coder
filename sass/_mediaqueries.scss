@@ -1,6 +1,11 @@
 /*MEDIAQUERIES*/
+@media only screen and (min-width:482px) and (max-width:800px) {
+        .section2 {
+                height: 50vh;
+        }
+    }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:767px) {
     .form {
         display: flex;
         flex-direction: column;
@@ -23,7 +28,7 @@
     }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:481px) {
     .tablebeneficios {
       flex-direction: column;
     }
@@ -37,7 +42,7 @@
       margin-left: 50%;
     }
     .section2{
-      height: auto;
+      min-height: 78vh;
   }
 
 }

@@ -23,6 +23,9 @@
     p {
         text-align: center;
     }
+    h2 {
+        text-align: center;
+    }
 }
 
 .logo{
@@ -44,9 +47,10 @@
 }
 
 .img-beneficios{
-    float: right;;
+    float: right;
     width: 25%;
     margin-right: 20%;
+    // margin-bottom: 5%;
 }
 
 .img-funciona{
@@ -127,3 +131,7 @@
 	-webkit-animation: heartbeat 2s ease-in-out 2s infinite both;
 	        animation: heartbeat 2s ease-in-out 2s infinite both;
 }
+
+.col-sm {
+    text-align: center;
+    }
