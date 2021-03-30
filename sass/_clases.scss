@@ -135,3 +135,26 @@
 .col-sm {
     text-align: center;
     }
+
+// VER DESDE ACA EN MAS
+
+.slide {
+    display: inline-block;
+    img {
+        height: 60px;
+        background-color: transparent;
+        padding: 0 15px;
+    }
+}
+
+.logos {
+    white-space: nowrap;
+    height: 5em;
+    animation: linear 15s infinite logos;
+    -webkit-animation: linear 15s infinite logos;
+    margin-top: 2em;
+}
+
+.section-clientes{
+    margin-top: 2rem;
+}

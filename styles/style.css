@@ -110,6 +110,23 @@
 .col-sm {
   text-align: center; }
 
+.slide {
+  display: inline-block; }
+  .slide img {
+    height: 60px;
+    background-color: transparent;
+    padding: 0 15px; }
+
+.logos {
+  white-space: nowrap;
+  height: 5em;
+  animation: linear 15s infinite logos;
+  -webkit-animation: linear 15s infinite logos;
+  margin-top: 2em; }
+
+.section-clientes {
+  margin-top: 2rem; }
+
 /*RESETEO DE VALORES POR DEFAULT*/
 * {
   margin: 0px;
@@ -147,6 +164,9 @@ h2 {
 
 section {
   padding: 2rem 7rem; }
+
+body, html {
+  overflow-x: hidden; }
 
 /*ESTILO DE PSEUDOELEMENTOS*/
 :focus {
@@ -296,5 +316,15 @@ footer {
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; } }
+@-webkit-keyframes logos {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(-100%); } }
+@keyframes logos {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(-100%); } }
 
 /*# sourceMappingURL=style.css.map */

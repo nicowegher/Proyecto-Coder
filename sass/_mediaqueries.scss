@@ -129,3 +129,20 @@
             animation-timing-function: ease-out;
   }
 }
+
+@-webkit-keyframes logos {
+        from {
+            transform: translateX(0)
+        }
+        to {
+            transform: translateX(-100%)
+        }
+    }
+    @keyframes logos {
+        from {
+            transform: translateX(0)
+        }
+        to {
+            transform: translateX(-100%)
+        }
+    }
