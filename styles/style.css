@@ -58,7 +58,7 @@
 .avatar {
   width: 20%; }
 
-.fa-heart, .fa-flask {
+.fa-heart, .fa-flask, .fa-whatsapp {
   color: #03a67b; }
 
 .testimonials {
@@ -113,15 +113,15 @@
 .slide {
   display: inline-block; }
   .slide img {
-    height: 60px;
+    height: 60px !important;
     background-color: transparent;
     padding: 0 15px; }
 
 .logos {
   white-space: nowrap;
   height: 5em;
-  animation: linear 15s infinite logos;
-  -webkit-animation: linear 15s infinite logos;
+  animation: logos linear 15s infinite;
+  -webkit-animation: logos linear 15s infinite;
   margin-top: 2em; }
 
 .section-clientes {
@@ -139,6 +139,9 @@
   scroll-behavior: smooth; }
   * :focus {
     outline-width: 0px; }
+
+a {
+  text-decoration: none !important; }
 
 /*ESTILO DE ELEMENTOS*/
 img {
@@ -317,14 +320,14 @@ footer {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; } }
 @-webkit-keyframes logos {
-  from {
+  0% {
     transform: translateX(0); }
-  to {
+  100% {
     transform: translateX(-100%); } }
 @keyframes logos {
-  from {
+  0% {
     transform: translateX(0); }
-  to {
+  100% {
     transform: translateX(-100%); } }
 
 /*# sourceMappingURL=style.css.map */

@@ -73,7 +73,7 @@
     width: 20%;
 }
 
-.fa-heart, .fa-flask{
+.fa-heart, .fa-flask, .fa-whatsapp{
     color: $colorMain;
 }
 
@@ -136,12 +136,10 @@
     text-align: center;
     }
 
-// VER DESDE ACA EN MAS
-
 .slide {
     display: inline-block;
     img {
-        height: 60px;
+        height: 60px !important;
         background-color: transparent;
         padding: 0 15px;
     }
@@ -150,9 +148,9 @@
 .logos {
     white-space: nowrap;
     height: 5em;
-    animation: linear 15s infinite logos;
-    -webkit-animation: linear 15s infinite logos;
-    margin-top: 2em;
+    animation: logos linear 15s infinite;
+    -webkit-animation: logos linear 15s infinite;
+    margin-top: 2em;    
 }
 
 .section-clientes{
